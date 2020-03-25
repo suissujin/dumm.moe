@@ -1,0 +1,302 @@
+html {
+    font-family: "roboto", sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+:root {
+    --coolange: #ed6a63;
+}
+
+:root {
+    --bulue: #3fa5aa;
+}
+
+::selection {
+    background-color: #c05a55;
+}
+
+body {
+    margin: 0px;
+    background: #424242;
+    z-index: -1;
+}
+
+header {
+    height: 12rem;
+    cursor: default;
+}
+
+h1,
+header p {
+    margin: 0rem;
+    padding: 0rem;
+    overflow: hidden;
+}
+
+
+.text1 h1 {
+    margin-bottom: 2rem;
+}
+
+.text1 {
+    font-family: 'cairo', sans-serif;
+    text-align: left;
+    font-size: 1.3rem;
+    padding: 0rem 0rem 0.7rem 1rem;
+    z-index: 2;
+}
+
+.banner {
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 14rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.285;
+    background-color: white;
+    overflow: hidden;
+}
+
+.white {
+    z-index: -2;
+    opacity: 0.4;
+}
+
+.text2 {
+    z-index: 2;
+    font-family: 'cairo', sans-serif;
+    text-align: left;
+    font-size: 1.3rem;
+    padding: 0rem 0rem 4.9rem 1rem;
+    z-index: 2;
+
+}
+
+.st {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.wow {
+    padding-top: 3rem;
+}
+
+.bg1 {
+    background-image: url(/images/home.png);
+}
+
+.bg2 {
+    background-image: url(/images/about.png);
+}
+
+.bg3 {
+    background-image: url(/images/ich.jpg);
+}
+
+.introduction {
+    font-size: 1.7rem;
+    color: var(--coolange);
+    margin: 0rem 0rem 0rem 1rem;
+    padding: 0.3rem;
+    background: #313131d5;
+    width: max-content;
+    border-style: groove;
+    border-color: var(--coolange);
+    border-radius: 0.3rem;
+}
+
+.navbar {
+    background: #1b1b1b;
+    display: flex;
+    padding-left: 1rem;
+}
+
+.navbar div {
+    padding: 0.8rem;
+    font-size: 1.4rem;
+    color: #c4cace;
+
+}
+
+.navbar div:hover {
+    background: var(--bulue) !important;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.active {
+    background: #110e0f !important;
+}
+
+.content {
+    margin-bottom: 6.6rem;
+}
+
+
+
+button {
+    font-family: "roboto", sans-serif;
+    color: var(--coolange);
+    background-color: #252726;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button2 {
+    display: flex;
+    justify-content: left;
+    position: fixed;
+}
+
+.construction {
+    text-align: center;
+    color: var(--bulue);
+    font-size: 2rem;
+}
+
+.about-text {
+    margin: 1rem;
+    font-size: 1.4rem;
+    color: #e6e6e6;
+}
+
+.hewwo {
+    margin: 2rem 0rem 4rem 0rem;
+}
+
+
+.announcement {
+    text-align: center;
+    margin: 5rem 0rem 0rem 0rem;
+    font-size: 1.5rem;
+}
+
+.jk {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0rem;
+}
+
+.unless {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0rem;
+}
+
+.neko {
+    position: fixed;
+    bottom: 3.3rem;
+    pointer-events: none;
+}
+
+.nekoleft {
+    left: 2rem;
+}
+
+.nekoright {
+    right: 2rem;
+}
+
+.eddy {
+    right: 0;
+    bottom: 4.5rem;
+}
+
+.secret1 {
+    position: fixed;
+    bottom: 0;
+    justify-content: left;
+    cursor: default;
+}
+
+.amazing {
+    font-size: 0.6rem;
+}
+
+.snavbar {
+    font-family: "comic sans MS";
+    color: rgb(194, 24, 89) !important;
+}
+
+.sfooter {
+    font-family: "comic sans MS";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #272626;
+    text-align: center;
+    font-size: 1.4rem;
+    width: 100%;
+    padding: 0.8rem;
+    color: rgb(194, 24, 89);
+    pointer-events: none;
+}
+
+
+.confetti {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+    pointer-events: none;
+}
+
+.jeff {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    pointer-events: none;
+}
+
+.jeff img {
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.image {
+    width: 100%;
+}
+
+.gay {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    font-family: comic sans MS;
+    font-size: 7rem;
+    color: rgb(194, 24, 89)
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: #272626;
+    text-align: center;
+    font-size: 1.4rem;
+    width: 100%;
+    padding: 0.8rem;
+    color: var(--coolange);
+    pointer-events: none;
+}
